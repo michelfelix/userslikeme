@@ -1,0 +1,92 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+header {
+    background-color: #9022f3;
+    box-shadow: 0 0 15px #6e0cc3;
+    position: relative;
+    z-index: 99;
+    padding: 10px 0;
+}
+
+.page-name {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+}
+
+.title-page {
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+}
+
+.section-title-page {
+    background-color: #9022f3;
+    padding: 20px 0 100px;
+}
+
+.content-user-info {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    padding: 0!important;
+    margin-top: -40px;
+}
+
+.photo-box {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.background-user-photo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -225px;
+    filter: blur(3px);
+    height: 100%;
+    width: 100%;
+}
+
+.photo-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    border-radius: 450px;
+}
+
+.photo-user img {
+    border: 2px solid #cecece;
+    border-radius: 450px;
+    width: 25%;
+    filter: blur(0);
+}
+
+.follow-box {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.button-follow-box {
+    display: flex;
+    justify-content: center;
+}
+
+#tryNext:hover {
+    border: 1px solid #646464;
+    transition: 0.5s;
+}
