@@ -61,7 +61,7 @@ header {
 .background-user-photo {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -225px;
+    background-position-y: -430px;
     filter: blur(3px);
     height: 100%;
     width: 100%;
@@ -79,7 +79,6 @@ header {
 .photo-user img {
     border: 2px solid #cecece;
     border-radius: 450px;
-    width: 25%;
     filter: blur(0);
 }
 
