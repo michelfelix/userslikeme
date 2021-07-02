@@ -5,6 +5,10 @@
     font-family: 'Segoe UI';
 }
 
+body {
+    background-color: #F6F6F6!important;
+}
+
 header {
     background-color: #9022f3;
     box-shadow: 0 0 15px #6e0cc3;
@@ -37,18 +41,21 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
     padding: 0!important;
-    margin-top: -40px;
+    padding-bottom: 50px!important;
+    margin-top: -80px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 7px -3px #565656;
 }
 
 .photo-box {
-    height: 250px;
+    height: 300px;
     width: 100%;
     position: relative;
     top: 0;
     z-index: 1;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .background-user-photo {
@@ -89,4 +96,19 @@ header {
 #tryNext:hover {
     border: 1px solid #646464;
     transition: 0.5s;
+}
+
+.full-name {
+    color: #000000;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+}
+
+.coutry {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
 }
