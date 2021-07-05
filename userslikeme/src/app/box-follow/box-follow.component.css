@@ -1,0 +1,9 @@
+.button-follow-box {
+    display: flex;
+    justify-content: center;
+}
+
+#tryNext:hover {
+    border: 1px solid #646464;
+    transition: 0.5s;
+}

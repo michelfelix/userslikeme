@@ -1,0 +1,18 @@
+header {
+    background-color: #9022f3;
+    box-shadow: 0 0 15px #6e0cc3;
+    position: relative;
+    z-index: 99;
+    padding: 10px 0;
+}
+
+.box-page-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-name {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+}

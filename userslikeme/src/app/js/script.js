@@ -34,7 +34,7 @@ fetch('https://randomuser.me/api/')
     );
 
     document.getElementById("photoPicture").innerHTML =
-    `<img src="${userPhotoPicture}">`;
+    `<img class="user-photo" src="${userPhotoPicture}">`;
 
     backgroundImage.style.backgroundImage = `URL(${userPhotoPicture})`;
   })

@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+.user-photo {
+    border: 2px solid #cecece;
+    border-radius: 450px;
+    filter: blur(0);
+}
