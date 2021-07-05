@@ -17,6 +17,7 @@ fetch('https://randomuser.me/api/')
   console.log(user)
   var backgroundImage = document.getElementById("photoBackground");
   return user.map(function(user) {
+      console.log(user.id.value)
       var userFirstName = user.name.first;
       var userLastName = user.name.last;
       var userLocationCity = user.location.city;
