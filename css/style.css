@@ -17,6 +17,11 @@ header {
     padding: 10px 0;
 }
 
+.box-page-name {
+    display: flex;
+    justify-content: space-between;
+}
+
 .page-name {
     color: #ffffff;
     font-size: 16px;
