@@ -45,20 +45,3 @@ function store(key, data) {
 function followUser() {
   store("users", currentUser)
 }
-
-function renderLocalUsers(user) {
-  document.getElementById("box-page-name").innerHTML =
-      `<div class="list-group-users">
-        <p>
-          <strong>${user.name.first}</strong>
-        </p>
-      </div>`
-}
-
-function getLocalUsers() {
-  const users = JSON.parse(localStorage.getItem("users"));
-
-  users.forEach((users) => renderLocalUsers(users));
-}
-
-getLocalUsers();
