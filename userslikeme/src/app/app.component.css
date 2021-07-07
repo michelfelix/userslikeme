@@ -14,7 +14,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ffffff;
     padding: 0!important;
     padding-bottom: 50px!important;
     margin: 0 auto 15px;
@@ -36,4 +35,12 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+}
+
+.more-info-user {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    top: -130px;
 }
