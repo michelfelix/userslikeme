@@ -38,6 +38,10 @@
 @media (max-width: 1024px)
 {
 
+    .background-user-photo {
+        background-position-y: -310px;
+    }
+
 }
 
 /* FIM DAS RESOLUÇÕES DESKTOP */
@@ -46,6 +50,18 @@
 
 @media (max-width: 960px)
 {
+
+    .background-user-photo {
+        background-position-y: -205px;
+    }
+
+    .more-info-user {
+        flex-direction: column;
+    }
+
+    .personal-box-info {
+        margin-right: auto;
+    }
 
 }
 
@@ -67,9 +83,18 @@
 @media (max-width: 550px)
 {
 
-    /* .background-user-photo {
+    .background-user-photo {
         background-position-y: 0;
-    } */
+    }
+
+    .section-title-page{
+        padding: 20px 0 50px;
+    }
+
+    .content-user-info,
+    .more-info-user {
+        top: 0;
+    }
 }
 
 @media (max-width: 500px)
