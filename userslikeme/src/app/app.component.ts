@@ -5,8 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: [
     './app.component.css',
-    'responsive.css',
-    'bootstrap.min.css',
+    'responsive.css'
   ]
 })
 export class AppComponent {

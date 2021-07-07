@@ -5,8 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './box-photo.component.html',
   styleUrls: [
     './box-photo.component.css',
-    '../responsive.css',
-    '../bootstrap.min.css'
+    '../responsive.css'
   ]
 })
 export class BoxPhotoComponent implements OnInit {

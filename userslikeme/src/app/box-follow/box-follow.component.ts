@@ -5,8 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './box-follow.component.html',
   styleUrls: [
     './box-follow.component.css',
-    '../responsive.css',
-    '../bootstrap.min.css'
+    '../responsive.css'
   ]
 })
 export class BoxFollowComponent implements OnInit {

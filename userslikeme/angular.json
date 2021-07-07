@@ -33,7 +33,6 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/app/js/bootstrap.min.js",
               "src/app/js/script.js"
             ]
           },

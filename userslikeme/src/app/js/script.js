@@ -33,21 +33,11 @@ function getInfoUser() {
     });
 }
 
-function toggleFollowButton() {
-  const button = document.getElementById("follow");
-
-  button.classList.toggle("btn-danger");
-  if (button.innerHTML === "Follow") {
-    button.innerHTML = "Unfollow";
-  } else {
-    button.innerHTML = "Follow";
-  }
-}
-
 function store(key, data) {
   if (localStorage.getItem(key) === null) {
-        localStorage.setItem(key, JSON.stringify([data]));
-  } else {
+    localStorage.setItem(key, JSON.stringify([data]));
+  }
+  else {
     localStorage.setItem(key, JSON.stringify([ ...JSON.parse(localStorage.getItem(key)), data ]))
   }
 }
@@ -55,3 +45,20 @@ function store(key, data) {
 function followUser() {
   store("users", currentUser)
 }
+
+function renderLocalUsers(user) {
+  document.getElementById("box-page-name").innerHTML =
+      `<div class="list-group-users">
+        <p>
+          <strong>${user.name.first}</strong>
+        </p>
+      </div>`
+}
+
+function getLocalUsers() {
+  const users = JSON.parse(localStorage.getItem("users"));
+
+  users.forEach((users) => renderLocalUsers(users));
+}
+
+getLocalUsers();

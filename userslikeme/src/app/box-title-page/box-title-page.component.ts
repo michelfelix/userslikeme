@@ -5,8 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './box-title-page.component.html',
   styleUrls: [
     './box-title-page.component.css',
-    '../responsive.css',
-    '../bootstrap.min.css'
+    '../responsive.css'
   ]
 })
 export class BoxTitlePageComponent implements OnInit {
